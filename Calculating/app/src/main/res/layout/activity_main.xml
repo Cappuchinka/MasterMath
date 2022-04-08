@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8800aa00"
+    android:gravity="top|center"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/label1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Калькулятор линейного уравнения"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/linearcalc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0000aa"
+        android:text="ax + b = c"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:padding="5dp"/>
+
+    <TextView
+        android:id="@+id/label2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Калькулятор квадратного уравнения"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/squarecalc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00aa00"
+        android:text="ax² + bx + c = 0"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:padding="5dp"/>
+
+    <TextView
+        android:id="@+id/label3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Сортировка массива по возрастанию"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/SortingBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sort Array"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:background="#ffaa00"/>
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#aaffaa00"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".SortArrayActivity"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/textViewer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Введите элементы массива через пробел."
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/EnterArray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/ResultArray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESULT"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnsort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ffaa00"
+        android:text="SORT" />
+</LinearLayout>
